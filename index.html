@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CỔNG KẾT NỐI HỖ TRỢ VIỆC LÀM SINH VIÊN</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="ovZXRei-izcFqjEczxe3ap5LagqXWPbdcH193q9zjyvnqTgg3dHiYVfpCFT5cvIjrQctY883oOwxKha_mjL7GQ==">
+
+<link href="http://huongnghiepvieclam.vn/assets/f7d30154/css/bootstrap.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/neu/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/neu/css/component.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/neu/css/style.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/neu/css/responsive.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/neu/css/container.player.min.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/assets/a1cca75e/stylesheets/language-picker.min.css" rel="stylesheet">
+<link href="http://huongnghiepvieclam.vn/assets/a1cca75e/stylesheets/flags-large.min.css" rel="stylesheet"></head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 hidden-lg hidden-md hidden-sm">
+                <div id="dl-menu" class="dl-menuwrapper">
+                    <span class="dl-trigger">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                    <ul class="dl-menu">
+                        <li>
+                            <a class="active"
+                               href="./index.html">Home</a>
+                        </li>
+                        <li><a class=""
+                               href="#">About Us</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="/index.php?r=info%2Fview&id=1">General introduction</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?r=info%2Fview&id=2">International partner</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?r=info%2Fview&id=3">Domestic partner</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class=""
+                               href="/index.php?r=job%2Findex">Find a job</a>
+                        </li>
+                        <li>
+                            <a class=""
+                               href="/index.php?r=job%2Fregistered">Post a job</a>
+                        </li>
+                        <li>
+                            <a class=""
+                               href="/index.php?r=question%2Findex">Survey</a>
+                        </li>
+                        <li>
+                            <a class=""
+                               href="/index.php?r=document%2Findex">Thư viện Video</a>
+                        </li>
+                        <li><a class=""
+                               href="#">Library</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="/index.php?r=document%2Findex">Video</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?r=document%2Ftext">Document</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a class=""
+                               href="/index.php?r=expert%2Findex">Experts</a>
+                        </li>
+                        <li><a class=""
+                               href="#">Report</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="/index.php?r=report%2Fview&id=1">Tracer study</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?r=report%2Fview&id=2">Methodology</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?r=report%2Fview&id=3">The Report</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style=" background: no-repeat">
+                            <div class="language-picker button-list large"><div><a href="/index.php?r=site%2Findex&language-picker-language=en" title="en" class="active"><i class="en"></i> </a><a href="/index.php?r=site%2Findex&language-picker-language=vi" title="vi"><i class="vi"></i> </a></div></div>                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-offset-6 col-md-6 hidden-xs col-sm-offset-6 col-sm-6">
+                <ul class="pull-right">
+                    <li style="background: no-repeat;margin-right: -10px;margin-bottom: 10px">
+                        <div class="language-picker button-list large"><div><a href="/index.php?r=site%2Findex&language-picker-language=en" title="en" class="active"><i class="en"></i> </a><a href="/index.php?r=site%2Findex&language-picker-language=vi" title="vi"><i class="vi"></i> </a></div></div>                    </li>
+                    <li>
+                                                    <a style="color: #FFA000!important;text-decoration: none;"
+                               href="/index.php?r=site%2Flogout">LogIn</a>
+                                            </li>
+                </ul>
+            </div>
+
+            <div class="banner_12 hidden-xs">
+                <div class="col-md-2 hidden-xs col-sm-1">
+                    <div class="logo-moet">
+                        <img class="img-responsive"
+                             src="http://huongnghiepvieclam.vn/neu/img/bgddt.png"/>
+                    </div>
+                </div>
+                <div class="col-md-1 hidden-xs col-sm-1">
+                    <div class="logo">
+                        <img class="img-responsive"
+                             src="http://huongnghiepvieclam.vn/neu/img/logo.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-5 hidden-xs col-sm-5">
+                    <h1 style="color: #3a3c8f">student Employability enhancement portal<br/>cổng thông tin hỗ trợ
+                        việc làm cho sinh
+                        viên
+                    </h1>
+                </div>
+                <div class="col-lg-4 col-md-4 hidden-xs col-sm-5">
+                    <div class="logo_neu pull-right">
+                        <img class="img-responsive" style="border-radius: 0px;padding: 4px 0 0 0; "
+                             src="http://huongnghiepvieclam.vn/neu/img/neu_logo.png"/>
+                    </div>
+                </div>
+            </div>
+
+                                        <div class="col-lg-12 hidden-xs hidden-sm" style="margin-bottom: 20px">
+                    <div class="logo_web">
+                        <div class="col-md-1">
+                            <span style="color: #3a3c8f">Our Partners</span>
+                        </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.uu.se/en"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_2.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.kth.se/en"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_1.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.uv.es/uvweb/college/en/university-valencia-1285845048380.html"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_3.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.rug.nl/"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_4.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.haui.edu.vn/vn"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_1.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://hcmute.edu.vn/"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_2.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://www.hutech.edu.vn/"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_3.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://hueuni.edu.vn/portal/en/"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_5.jpg"/></a>
+                            </div>
+                                                    <div class="col-md-1" style="padding: 0 5px;">
+                                <a target="_blank" href="https://neu.edu.vn/"><img
+                                            class="img-responsive"
+                                            src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_07.jpg"/></a>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="hidden-md col-xs-2 hidden-sm hidden-lg" style="margin-top: 10px">
+                <img class="img-responsive" style="min-width: 40px;margin-left: 5px;"
+                     src="http://huongnghiepvieclam.vn/neu/img/logo.jpg">
+            </div>
+            <div class="hidden-md col-xs-4 hidden-sm hidden-lg" style="margin-top: 12px;padding-right: 15px">
+                <h1 style="color: #3a3c8f">cổng thông tin hỗ trợ việc làm cho sinh viên</h1>
+            </div>
+            <div class="hidden-md col-xs-4 hidden-sm hidden-lg" style="margin-top: 20px">
+                <img class="img-responsive" style="width: 100%;
+    height: auto;
+    border-radius: 0;
+    padding-right: 15px;"
+                     src="http://huongnghiepvieclam.vn/neu/img/neu_logo.png">
+            </div>
+
+                            <div class="col-xs-12  hidden-lg hidden-md" style="float: left">
+                    <div class="logo_dt">
+                        <div class="col-xs-12  hidden-lg hidden-md" style="float: left">
+                            <span style="color: #3a3c8f">Our Partners</span>
+                        </div>
+                        
+                            <a target="_blank" href="https://www.uu.se/en"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_2.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://www.kth.se/en"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_1.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://www.uv.es/uvweb/college/en/university-valencia-1285845048380.html"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_3.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://www.rug.nl/"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_dt_4.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://www.haui.edu.vn/vn"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_1.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://hcmute.edu.vn/"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_2.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://www.hutech.edu.vn/"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_3.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://hueuni.edu.vn/portal/en/"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_5.jpg"/></a>
+
+                        
+                            <a target="_blank" href="https://neu.edu.vn/"><img
+                                        class="img-responsive"
+                                        src="http://admin.huongnghiepvieclam.vn//uploads/partner/logo_07.jpg"/></a>
+
+                                            </div>
+                </div>
+                    </div>
+    </div>
+</header>
+<div class="clearfix"></div>
+<nav class="hidden-xs">
+    <div class="container">
+        <div class="row" style="margin-left: -55px">
+            <div class="col-md-9 col-sm-9 hidden-xs">
+                <ul class="menu_sub">
+                    <li>
+                        <a class="active"
+                           href="/index.php">Home</a>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="#">About Us<span style="font-size: 10px"
+                                                                              class="arrow"> &#9660;</span></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/index.php?r=info%2Fview&id=1">General introduction</a>
+                            </li>
+                            <li>
+                                <a href="/index.php?r=info%2Fview&id=2">International partner</a>
+                            </li>
+                            <li>
+                                <a href="/index.php?r=info%2Fview&id=3">Domestic partner</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a class=""
+                           href="/index.php?r=job">Find a job</a>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="/index.php?r=job%2Fregistered">Post a job</a>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="/index.php?r=question%2Findex">Survey</a>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="#">Library<span style="font-size: 10px"
+                                                                            class="arrow"> &#9660;</span></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/index.php?r=document%2Findex">Video</a>
+                            </li>
+                            <li>
+                                <a href="/index.php?r=document%2Ftext">Document</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="/index.php?r=expert%2Findex">Experts</a>
+                    </li>
+                    <li>
+                        <a class=""
+                           href="#">Report<span style="font-size: 10px"
+                                                                           class="arrow"> &#9660;</span></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/index.php?r=report%2Fview&id=1">Tracer study</a>
+                            </li>
+                            <li>
+                                <a href="/index.php?r=report%2Fview&id=2">Methodology</a>
+                            </li>
+                            <li>
+                                <a href="/index.php?r=report%2Fview&id=3">The Report</a>
+                            </li>
+                        </ul>
+                    </li>
+                                    </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 hidden-xs">
+                <div class="seach pull-right">
+                    <form class="search" action="/index.php?r=index" method="get">
+                        <input type="hidden" name="r" value="job/index">
+                        <div class="input-group">
+                            <input type="text" id="jobsearch-name" name="JobSearch[name]"
+                                   value="" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button><img alt="Search"
+                                             src="http://huongnghiepvieclam.vn/neu/img/search.png"></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="content">
+    <style>
+    .carousel-control {
+        width: 6% !important;
+    }
+    .img-responsive-ms {
+        display: block;
+        width: 100%;
+        max-height: 175px;
+    }
+</style>
+<div class="container">
+    <div class="notification">
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <h3>NOTIFICATION</h3>
+            </div>
+            <div class="col-md-10 col-xs-8">
+                                    <p>
+                        Lưu ý: Phòng chống dịch nCOV: Hãy ở nhà/ Important news on new-corona virus: #stayathome                    </p>
+                            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="row">
+                                                <div class="col-md-8 col-sm-8" style="max-height: 380px">
+                        <div class="item">
+                            <a href="/index.php?r=question%2Findex">
+                                <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn//uploads/news/4onl-survey.jpg" alt="" style="height:380px;width:100%">                            </a>
+                            <div class="title">
+                                <a href="http://huongnghiepvieclam.vn/index.php?r=question%2Findex">
+                                    <p>PLEASE TAKE 10 MINUTES SURVEY!</p>
+                                    <p><p>This will help MOET and universities to improve the curriculum and student employability!</p></p>
+                                </a>
+                            </div>
+                            <span class="start"><a style="color: #fff;text-decoration: none;" href="/index.php?r=question%2Findex">JOIN SURVEY</a></span>
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-4 hidden-xs" style="max-height: 175px;margin-bottom: 25px">
+                        <div class="item gradient">
+                            <img class="img-responsive-ms" src="http://admin.huongnghiepvieclam.vn//uploads/news/4321-1024x641.jpg" alt="">                            <a style="color: white;" href="/index.php?r=document%2Findex"><p><span>Skills to know when choosing suitable employers</span></p></a>
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-4 hidden-xs" style="max-height: 175px">
+                        <div class="item gradient">
+                            <img class="img-responsive-ms" src="http://admin.huongnghiepvieclam.vn//uploads/news/30_a16EHXgiNxdLohzI.jpg" alt="">                            <a style="color: white;" href="/index.php?r=job%2Findex"><p><span>Best job opportunity</span></p></a>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+    <div class="work">
+        <div class="items-title">
+            <h1>JOB OPPORTUNITY</h1>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=63">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Tuyển trợ giảng môn toán tư duy</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>TP Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=62">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Nhân viên kỹ thuật (ép nhựa, khuôn mẫu)</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=61">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3></h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=60">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>NHÂN VIÊN HỖ TRỢ KHÁCH HÀNG</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>TP Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=59">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Nhân viên kỹ thuật (ép nhựa, khuôn mẫu)</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=58">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3></h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Bắc Kạn</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=57">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Kế toán tổng hợp, Nhân viên kế toán</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>TP Hồ Chí Minh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=56">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Nhân viên kinh doanh</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=55">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Cán bộ dự án - cán bộ BA</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=54">
+                                <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/default.gif" alt="">                            </a>
+                        </div>
+                        <h3>Lập trình viên (PHP, .Net, Java)</h3>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=53">
+                                <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn//uploads/job/1Crack-Down-on-Faceless-Crypto-Users-by-Shinhan-Bank-of-South-Korea-1024x683.png" alt="">                            </a>
+                        </div>
+                        <h3>THÔNG TIN TUYỂN DỤNG SHINHAN BANK - FRESH BANKER 2020</h3>
+                        <p>Shinhan Bank</p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-3 col-xs-6">
+                    <div class="lits-item">
+                        <div id="lits-item">
+                            <a href="/index.php?r=job%2Fview&id=52">
+                                <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn//uploads/job/4kinh-nghiem-lam-ke-toan-nha-hang-5.png" alt="">                            </a>
+                        </div>
+                        <h3>NHÂN VIÊN TIỀN LƯƠNG</h3>
+                        <p>Viettel</p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6 pdr-0 img_a">
+                                <img src="http://huongnghiepvieclam.vn/neu/img/money-exchange.png"/>
+                                <span> tr</span>
+                            </div>
+                            <div class="col-md-6 col-xs-6 img_a">
+                                <div class="pull-right">
+                                    <img src="http://huongnghiepvieclam.vn/neu/img/location-mark.png"/>
+                                    <span>Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<section class="section-1">
+    <div class="container">
+        <h1>KNOWLEDGE AND SKILLS NEEDED FOR WORK</h1>
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <div class="carousel-inner">
+                                    <div class="item active">
+                        <div class="col-xs-4" style="">
+                            <a href="/index.php?r=document%2Fplay&id=1">
+                                <img src="https://img.youtube.com/vi/yqGkImUFS78/maxresdefault.jpg"
+                                     class="img-responsive">
+                                <div class="play">
+                                    <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/play.png"/>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                                    <div class="item ">
+                        <div class="col-xs-4" style="">
+                            <a href="/index.php?r=document%2Fplay&id=2">
+                                <img src="https://img.youtube.com/vi/eRcvf82DLrY/maxresdefault.jpg"
+                                     class="img-responsive">
+                                <div class="play">
+                                    <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/play.png"/>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                                    <div class="item ">
+                        <div class="col-xs-4" style="">
+                            <a href="/index.php?r=document%2Fplay&id=3">
+                                <img src="https://img.youtube.com/vi/ZAMY6uhydDU/maxresdefault.jpg"
+                                     class="img-responsive">
+                                <div class="play">
+                                    <img class="img-responsive" src="http://huongnghiepvieclam.vn/neu/img/play.png"/>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                
+            </div>
+            <a class="left carousel-control"
+               href="#myCarousel"
+               data-slide="prev">
+                <i class="glyphicon glyphicon-chevron-left">
+                </i>
+            </a>
+            <a class="right carousel-control"
+               href="#myCarousel"
+               data-slide="next">
+                <i class="glyphicon glyphicon-chevron-right">
+                </i>
+            </a>
+
+        </div>
+    </div>
+</section>
+<section class="section-2">
+    <div class="container">
+        <div class="items-title">
+            <h1>EMPLOYER REPUTATION</h1>
+        </div>
+        <div class="row" id="lits-item">
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=10">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/asset-1.png" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=11">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/318558937_10203457155587346_8623605343528599363_o1.jpg" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=12">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/1CSMO-1.jpg" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=13">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/2ngol88291474713913757.jpg" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=14">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/1unnamed.jpg" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=15">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/3unnamed.png" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=17">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/210785579.png" alt="">                    </a>
+                </div>
+                            <div class="col-md-3 col-xs-6 col-sm-3" style="margin-bottom: 15px">
+                    <a href="/index.php?r=employer%2Fview&id=18">
+                        <img class="img-responsive" src="http://admin.huongnghiepvieclam.vn/uploads/employer/3logo.png" alt="">                    </a>
+                </div>
+                    </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(window).load(function () {
+        $(".carousel .item").each(function () {
+            var i = $(this).next();
+            i.length || (i = $(this).siblings(":first")),
+                i.children(":first-child").clone().appendTo($(this));
+            for (var n = 0; n < 1; n++) (i = i.next()).length ||
+            (i = $(this).siblings(":first")),
+                i.children(":first-child").clone().appendTo($(this))
+        })
+    });
+</script>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div style="padding-top: 10px;" class="col-md-6 col-xs-8">
+                <div class="row">
+                    <div style="padding-right: 0;" class="col-md-3 col-xs-5">
+                        <img class="img-responsive" style="border-radius: 50%"
+                             src="http://huongnghiepvieclam.vn/neu/img/logo.jpg"/>
+                    </div>
+                    <div style="padding-left: 0;" class="col-md-9 col-xs-7 pdr-0">
+                        <h1>portal                            <br/>employment support for students</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <h3>CONTACT</h3>
+                <div class="row">
+                    <ul class="left col-md-12">
+                                                    <li><img height="40" src="http://huongnghiepvieclam.vn/neu/img/icon-email.png"/>
+                                Email: <a href="mailto:trungtamhotrodaotao@moet.edu.vn"> trungtamhotrodaotao@moet.edu.vn</a>
+                            </li>
+                                                                            <li><img height="40" src="http://huongnghiepvieclam.vn/neu/img/icon-phone.png"/>
+                                Điện thoại (84-24) 38262018, Fax: (84-24) 38269466                            </li>
+                                                                            <li><img height="40" src="http://huongnghiepvieclam.vn/neu/img/icon-fb.png"/>
+                                <a href="https://www.facebook.com/NEUCareercenter">https://www.facebook.com/NEUCareercenter</a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright © 2020 - Event project </p>
+
+    </div>
+</footer>
+<div class="float-icon hidden-sm hidden-xs">
+    <ul>
+        <li><a href="mailto:trungtamhotrodaotao@moet.edu.vn"><img
+                        src="http://huongnghiepvieclam.vn/neu/img/icon-email.png"/></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/NEUCareercenter"><img
+                        src="http://huongnghiepvieclam.vn/neu/img/icon-fb.png"/></a></li>
+        <li><a href="tel:Điện thoại (84-24) 38262018, Fax: (84-24) 38269466"><img src="http://huongnghiepvieclam.vn/neu/img/icon-phone.png"/></a>
+        </li>
+        <li><a target="_blank" href=""><img
+                        src="http://huongnghiepvieclam.vn/neu/img/icon-messager.png"/></a></li>
+    </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script>
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+</script>
+<script src="http://huongnghiepvieclam.vn/assets/f4427406/jquery.js"></script>
+<script src="http://huongnghiepvieclam.vn/assets/6e773169/yii.js"></script>
+<script src="http://huongnghiepvieclam.vn/assets/f7d30154/js/bootstrap.js"></script>
+<script src="http://huongnghiepvieclam.vn/neu/js/jquery.dlmenu.js"></script>
+<script src="http://huongnghiepvieclam.vn/neu/js/modernizr.custom.js"></script>
+<script src="http://huongnghiepvieclam.vn/neu/js/container.player.min.js"></script>
+<script src="http://huongnghiepvieclam.vn/neu/js/main.js"></script>
+<script src="http://huongnghiepvieclam.vn/assets/a1cca75e/javascripts/language-picker.min.js"></script>
+
+</body>
+</html>
